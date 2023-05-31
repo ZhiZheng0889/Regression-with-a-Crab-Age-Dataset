@@ -1,3 +1,4 @@
+
 ## Portfolio Report: Data Analytics
 
 ### Introduction
@@ -23,6 +24,21 @@ Although the provided code and output do not contain specific data analytic plot
 -   **Exploratory Data Analysis (EDA):** Visualize the datasets using various plots, such as scatter plots, bar charts, or line graphs. Explore relationships between variables, identify patterns, and detect potential outliers.
     
 -   **Correlation Analysis:** Calculate correlation coefficients between variables to determine the strength and direction of relationships. Identify significant correlations that may impact the analysis.
+-Based on the provided correlation matrix and pair plots, we can draw the following conclusions regarding the relationship between the variables and the 'Age' column:
+
+**For the `train_data` dataset: **
+
+-   'Length' and 'Diameter' have moderate positive correlations with 'Age' (correlation coefficients of 0.612843 and 0.621256, respectively). This suggests that as the length and diameter of the samples increase, the age tends to increase as well.
+-   'Height' has a slightly weaker positive correlation with 'Age' (correlation coefficient of 0.638067), indicating that as the height of the samples increases, the age tends to increase.
+-   'Weight', 'Shucked Weight', 'Viscera Weight', and 'Shell Weight' have relatively weak positive correlations with 'Age' (correlation coefficients ranging from 0.503320 to 0.663473). This implies that as these weight-related variables increase, the age tends to increase, although the relationship is not as strong as with the size-related variables.
+
+**For the `orig_data` dataset:**
+
+-   'Length' and 'Diameter' also have moderate positive correlations with 'Age' (correlation coefficients of 0.554973 and 0.573844, respectively).
+-   'Height' has a moderate positive correlation with 'Age' (correlation coefficient of 0.551956).
+-   'Weight', 'Shucked Weight', 'Viscera Weight', and 'Shell Weight' have weaker positive correlations with 'Age' (correlation coefficients ranging from 0.418760 to 0.625195).
+
+In summary, based on the correlation coefficients, there is a positive relationship between the size-related variables ('Length', 'Diameter', and 'Height') and the age of the samples in both datasets. Additionally, there is a weaker positive relationship between the weight-related variables ('Weight', 'Shucked Weight', 'Viscera Weight', and 'Shell Weight') and the age of the samples. However, it's important to note that correlation does not imply causation, and further analysis is needed to understand the underlying factors influencing these relationships.
     
 -   **Hypothesis Testing:** Formulate hypotheses related to the data and perform statistical tests to validate or reject them. This can involve techniques like t-tests, ANOVA, or chi-square tests, depending on the nature of the variables.
     
