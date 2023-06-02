@@ -64,4 +64,3 @@ Today marked the second day of the Regression-with-a-Crab-Age-Dataset project. T
 
 Overall, the second day of the Regression-with-a-Crab-Age-Dataset project was productive. Data preprocessing was performed, including handling missing values, encoding categorical variables, and feature scaling. Best subset selection was applied to identify the most informative features for predicting crab age. Model selection was performed using Optuna, considering several regression models such as XGBoost, LightGBM, CatBoost, RandomForestRegressor, GradientBoostingRegressor, and LinearRegression. The next steps will involve fine-tuning the selected model with the best performance and evaluating its performance on the test set.
 
-_End of Day 2 Report._
